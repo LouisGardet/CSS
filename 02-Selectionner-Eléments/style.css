@@ -1,0 +1,27 @@
+p{
+    color: orange;
+}
+
+
+.txt{
+    color: violet;
+}
+
+#str{
+    color: brown;
+}
+
+/* p { 
+    color: red!important;
+}*/
+
+/* Les noms des éléments sont - forts que < les classes < les id < le mot clé important */ 
+
+.box p {
+    color: green;
+}
+
+.tx{
+    color: crimson;
+}
+/* .tx a moins d'importance que la classe box p */

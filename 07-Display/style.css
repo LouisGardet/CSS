@@ -1,0 +1,39 @@
+span{
+    display: inline-block; 
+    /* Reste un élément inline mais avec un comportement block */
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+}
+
+h1{
+    background: violet;
+    display: inline;
+}
+
+.box{
+    width: 300px;
+    height: 80px;
+    background-color: yellow;
+    /* flexbox */
+    display: flex;
+    /* grid */
+    display: grid;
+    /* table */
+    display: table;
+    display: none;
+}
+
+.box2{
+    background-color: salmon;
+    display: inline-block;
+
+    display: inline-flex;
+
+    display: inline-grid;
+
+    display: inline-table;
+
+    /* Hérite du display de son parent, ici c'est body */
+    display: inherit;
+}

@@ -1,0 +1,33 @@
+p {
+
+    /* COULEURS DE TEXTE */
+
+
+    /* Nom de couleurs */
+    color: red;
+
+    /* Hexadécimal */
+    color: #3333;
+
+    /* RBG */
+    color: rgb(0, 0, 0);
+
+    /* RGBA */
+    color: rgba(0, 0, 0, .2);
+
+    /* HSL */
+    color: hsl(39, 100%, 50%);
+
+    /* HWB */
+    color: hwb(39 0% 0%);
+
+    /* COULEURS DE FOND */
+
+    background-color: red;
+
+    /* Je peux utiliser les même propriétés */
+
+    /* colorable recense les couleurs */
+}
+
+

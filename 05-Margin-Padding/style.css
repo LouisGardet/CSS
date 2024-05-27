@@ -1,0 +1,59 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: salmon;
+
+    /* MARGIN */
+    /* margin-top: 55px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; */
+
+    /* Appliquer une marge sur tous les côtés */
+    margin: 20px;
+
+    /* Haut et bas */
+    margin: 25px 30px;
+
+    /* Haut/Gauche & Droite/Bas */
+    margin: 30px 25px 10px;
+
+    /* Haut, Droit, Bas, Gauche */
+    margin: 10px 15px 20px 30px;
+
+
+    /* PADDING*/
+
+    /* padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px; */
+
+        /* Appliquer une marge sur tous les côtés */
+        padding: 20px;
+
+        /* Haut et bas */
+        padding: 25px 30px;
+    
+        /* Haut/Gauche & Droite/Bas */
+        padding: 30px 25px 10px;
+    
+        /* Haut, Droit, Bas, Gauche */
+        padding: 10px 15px 20px 30px;
+
+}
+
+/* Les deux marges se recontrent et la valeur la plus grande écrase l'autre */
+.box1{
+    margin-top: 60px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+/* Margin 0 auto permet de centrer un objet sur x */
+
+.box2{
+    margin-bottom: 80px;
+    
+}
+

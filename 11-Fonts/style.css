@@ -1,0 +1,45 @@
+p{
+    /* appliquer une couleur */
+    color: red;
+
+    /* appliquer un fond */
+    background-color: crimson;
+
+    /* hauteur de ligne */
+    line-height: 1.2;
+
+    /* style */
+    font-style: italic;
+
+    /* gras */
+    font-weight: bold;
+
+    /* taille */
+    font-size: 25px;
+
+    /* famille d'écriture */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* font = propriétés raccourcies */
+    /* font_style / font_weight / font-size / ligne-height / font-family */
+    font: italic 700 50px /2 sans-serif;
+
+    /* alignement sur x [center, left, right, justify] */
+    text-align: left;
+
+    /* text-decoration : [underline / line-through / overline] */
+    text-decoration: overline;
+
+    /* empêche le retour à la ligne */
+    white-space: nowrap;
+
+    /* text-transform: uppercase /Lowercase / capitalize(tous les début de mots en MAJ) */
+    text-transform: uppercase;
+
+    /* espace entre les lettres */
+    letter-spacing: 10px;
+
+    font-family: 'Roboto', sans-serif;
+
+    /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
+}

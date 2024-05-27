@@ -1,0 +1,27 @@
+.box{
+    width: 100%;
+    height: 100vh;
+
+    background-color: red;
+
+    /* appliquer une image de fond */
+    background-image: url(./src/img.avif);
+
+    /* gérer la position du fond 
+    sur x, y ou center */
+    /* background-position: 20px 605px; */
+    background-position: center;
+
+    /* Gérer la tialle du fonc cover contain % */
+    background-size: cover;
+
+    /* gérer la répétition du fond */
+    background-repeat: no-repeat;
+
+    /* Propriétés raccourcis */
+    background: no-repeat center / cover url(./src/img.avif);
+
+    /*  */
+    background-attachment: fixed;
+}
+

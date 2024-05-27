@@ -1,0 +1,32 @@
+
+body{
+    height: 100vh;
+}
+/* vh = taille relative au navigateur */
+/* Par défaut la hauteur du body n'est pas définie */
+
+.box{
+    /* DIMENSIONS */
+
+    background-color: red;
+    /* Largeur */
+    width: 50%;
+
+    /* Hauteur */
+    height: 50%;
+}
+
+.box1{
+    background-color: aqua;
+    width: 100%;
+    /* max-width = largeur maximal sur un écran */
+    max-width: 750px;
+    /* min-width = largeur minimale */
+    min-width: 500px;
+
+    height: 150px;
+    /* max-height = hauteur maximale */
+    /* min-height = hauteur minimale */
+    max-height: 300px;
+    min-height: 150px;
+}

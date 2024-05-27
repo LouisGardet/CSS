@@ -1,0 +1,15 @@
+p{
+    width: 300px;
+    height: 80px;
+    background-color: orange;
+}
+
+.txt{
+    /* display: none; */
+    /* disparait du fluxb  */
+
+    /* visibility: hidden; */
+    /* reste dans le flux mais invisible */
+
+    opacity: 0;
+}

@@ -1,0 +1,14 @@
+p{
+    background-color: salmon;
+    width: 500px;
+    height: 500px;
+    margin: 20px 20px 20px 20px;
+    padding: ;
+}
+
+span{
+    background-color: chocolate;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding: 25px 25px 25px 25px;
+}
