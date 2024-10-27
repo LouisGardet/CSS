@@ -4,3 +4,31 @@
     margin: 1rem 0;
     background-color: orange;
 }
+
+
+/* BOX SHADOW X Y dose étendue opacité*/
+
+/* .box1 {
+    box-shadow: 20px 10px 5px 0 rgba(0, 0, 0, .5);
+
+    /* MULTI OMBRES */
+    /* box-shadow: 5px 0px 5px 0 rgba(0, 0, 0, .5),
+                -5px 0px 5px 0 rgba(244, 15, 15, .7)
+}
+
+.box2{
+    box-shadow: -2px 5px 5px 0 rgba(0, 0, 0, .5);
+} */
+
+.box1 {
+    box-shadow: inset 0 0 15px 0 rgba(0,0,0,.8);
+}
+
+/* TEXT SHADOW */
+
+h1 {
+    text-align: center;
+    color: red;
+
+    text-shadow: 0 0 5px rgba(0,0,0,.8);
+}

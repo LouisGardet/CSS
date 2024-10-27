@@ -1,0 +1,65 @@
+:root{
+    font-size: 20px;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    margin-bottom: 1rem;
+}
+
+
+/* ACTIVE = quand j'appuie sur mon élément san relâcher */
+
+.box:active{
+    background: crimson;
+}
+
+/* HOVER = quand je survole l-un élément */
+
+.box:hover{
+    background: green;
+}
+
+/* Slectionne premiere lettre */
+h1::first-letter{
+    color: orange;
+}
+
+/* focus = quand je focus mon input */
+input:focus{
+    background: rosybrown
+}
+
+/* CHECKED = fonctionne avec les inout de type checkbox */
+input:checked{
+    width: 200px;
+    height: 200px;
+}
+
+a:visited{
+    color:red
+}
+
+/* nth-child = permet de sélectionner un enfant */
+/* even = élément pair */
+/* odd = élément impair */
+li:nth-child(2){
+    color: orange;
+}
+
+/* last-child = sélectionne le dernier enfant */
+
+li:last-child{
+    color: green
+}
+
+/* first-child = sélectionne le premier enfant */
+li:first-child{
+    color: aqua;
+}
+
+li:not(p){
+    color: #333;
+}
